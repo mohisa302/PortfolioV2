@@ -60,5 +60,6 @@ export const data = [
     describe: 'This website that displays a list of books and allows you to add and remove books from that list.',
     github: 'https://github.com/mohisa302/Awesome-books',
     live: 'https://mohisa302.github.io/Awesome-books/',
+    tech: ['JavaScript', 'Html', 'React'],
   },
 ];
