@@ -1,4 +1,3 @@
-/* eslint-disable implicit-arrow-linebreak */
 import React from 'react';
 import Back2 from '../assets/color-sharp.png';
 
