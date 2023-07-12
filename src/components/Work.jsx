@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
-import { data } from '../data/data';
-import Back2 from '../assets/color-sharp2.png';
+import data from '../data/data';
+import Back2 from '../assets/color-sharp3.png';
 
 const Work = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(null);
@@ -18,7 +18,11 @@ const Work = () => {
     <div
       name="work"
       className="w-full pt-16 md:h-full h-fulls text-gray-300 bg-[#0a192f]"
-      style={{ backgroundImage: `url(${Back2})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${Back2})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">

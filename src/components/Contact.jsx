@@ -1,12 +1,16 @@
 import React from 'react';
-import Footer from '../assets/footer-bg.png';
+import Footer from '../assets/color-sharp2.png';
 
 const Contact = () => {
   return (
     <div
       name="contact"
-      style={{ backgroundImage: `url(${Footer})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(${Footer})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 "
     >
       <form method="POST" action="https://formspree.io/f/moqbgdbk" className="flex flex-col max-w-[600px] w-full">
         <div className="pb-8">

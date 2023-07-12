@@ -5,7 +5,7 @@ import img4 from '../assets/work4.png';
 import img5 from '../assets/work5.png';
 import img6 from '../assets/work6.png';
 
-export const data = [
+const data = [
   {
     id: 1,
     name: 'Fancy Vespas',
@@ -63,3 +63,5 @@ export const data = [
     tech: ['JavaScript', 'Html', 'React'],
   },
 ];
+
+export default data;
