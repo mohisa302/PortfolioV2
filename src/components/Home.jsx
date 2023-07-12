@@ -25,8 +25,8 @@ const Home = () => (
         I'm a Software Developer.
       </h2>
       <p className="text-[#8892b0] py-4 max-w-[700px]">
-        I can help you build a product, feature or website Look through some of my work and experience! If you like
-        what you see and have a project you need coded, don’t hestiate to contact me.
+        I can help you build a product, feature, or website. Take a look at some of my work and experience!
+        If you like what you see and have a project that needs coding, don't hesitate to contact me.
       </p>
       <div>
         <Link to="work" smooth={true} duration={500}>
