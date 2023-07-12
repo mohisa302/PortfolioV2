@@ -1,5 +1,7 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
-import Modal from './Modal';
+import Modal from '../modals/Modal';
 import data from '../data/data';
 import Back2 from '../assets/color-sharp3.png';
 

@@ -9,8 +9,7 @@ import Tailwind from '../assets/tailwind.png';
 import Ruby from '../assets/icon3.png';
 import Back from '../assets/color-sharp3.png';
 
-const Skills = () => {
-  return (
+const Skills = () => (
     <div
       name="skills"
       className="w-full h-full bg-[#0a192f] text-gray-300"
@@ -62,7 +61,6 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  );
-};
+);
 
 export default Skills;

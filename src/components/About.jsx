@@ -1,8 +1,7 @@
 import React from 'react';
 import Back2 from '../assets/color-sharp.png';
 
-const About = () => {
-  return (
+const About = () => (
     <div
       name="about"
       className="w-full h-screen bg-[#0a192f] text-gray-300"
@@ -25,15 +24,15 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves the lives of those around me. I
-              specialize in creating software for clients ranging from individuals and small-businesses all the way to
-              large enterprise corporations.
+            I am passionate about building excellent software that improves
+            the lives of those around me. I specialize in creating software
+            for clients ranging from individuals and small businesses
+            to large enterprise corporations.
             </p>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+);
 
 export default About;
