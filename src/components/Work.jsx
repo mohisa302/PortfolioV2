@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
 import { data } from '../data/data';
+import Back2 from '../assets/color-sharp2.png';
 
 const Work = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(null);
@@ -14,7 +15,11 @@ const Work = () => {
   const projects = data;
 
   return (
-    <div name="work" className="w-full pt-16 md:h-full h-fulls text-gray-300 bg-[#0a192f]">
+    <div
+      name="work"
+      className="w-full pt-16 md:h-full h-fulls text-gray-300 bg-[#0a192f]"
+      style={{ backgroundImage: `url(${Back2})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-purple-500">Work</p>
