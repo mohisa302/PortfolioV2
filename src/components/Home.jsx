@@ -1,10 +1,15 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import Banner from '../assets/banner-bg.png';
 
 const Home = () => {
   return (
-    <div name="home" className="bg-[#0a192f] w-full h-screen">
+    <div
+      name="home"
+      className="bg-[#0a192f] w-full h-screen"
+      style={{ backgroundImage: `url(${Banner})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    >
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-purple-500 text-2xl">Hi, my name is</p>
