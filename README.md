@@ -2,8 +2,7 @@
 
 <div align="center">
 
-  <img src="https://github.com/mohisa302/ReadMe/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+<h1>🖺 Portfolio</h1>
 
 </div>
 
@@ -37,8 +36,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-you can see my profile through this link:
-https://mohisa302.github.io/Portfolio/
+[See my portfolio!](https://mohisa-portfolio.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,13 +50,7 @@ you can know me from here...
 
 - GitHub: [@mohisa302](https://github.com/mohisa302)
 - Twitter: [@Kholochelam](https://twitter.com/Kholochelam)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mohadese-sadeghi-692551199/)
-
-👤 **Martin Karugaba**
-
-- GitHub: [@githubhandle](https://github.com/martinkarugaba)
-- Twitter: [@twitterhandle](https://twitter.com/martin_karugaba)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohadese-sadeghi)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -84,7 +76,7 @@ If you like this project give me star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my favorite mentor Houda Mzari
+I would like to thank [Clint Briley](https://github.com/fireclint/portfolio-app-react) for his tutorial 🙏
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
