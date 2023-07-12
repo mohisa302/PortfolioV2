@@ -1,12 +1,8 @@
 <a name="readme-top"></a>
 
-<div align="center">
+# 🖺 Portfolio
 
-<h1>🖺 Portfolio</h1>
-
-</div>
-
-# 📗 Table of Contents
+## 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
