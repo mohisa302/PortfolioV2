@@ -1,8 +1,7 @@
 import React from 'react';
 import Footer from '../assets/color-sharp2.png';
 
-const Contact = () => {
-  return (
+const Contact = () => (
     <div
       name="contact"
       style={{
@@ -24,7 +23,6 @@ const Contact = () => {
         </button>
       </form>
     </div>
-  );
-};
+);
 
 export default Contact;

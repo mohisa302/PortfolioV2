@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import {
+  FaBars, FaTimes, FaGithub, FaLinkedin,
+} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/Untitled.png';
 import { Link } from 'react-scroll';
+import Logo from '../assets/Untitled.png';
 import Resume from '../assets/Profile.pdf';
 
 function Navbar() {
@@ -44,12 +46,12 @@ function Navbar() {
         </li>
       </ul>
 
-      {/*nav controller*/}
+      {/* nav controller */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/*mobile menu*/}
+      {/* mobile menu */}
       <ul
         className={
           !nav
@@ -88,7 +90,7 @@ function Navbar() {
         </li>
       </ul>
 
-      {/*social icons*/}
+      {/* social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
