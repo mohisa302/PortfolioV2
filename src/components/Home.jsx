@@ -29,14 +29,15 @@ const Home = () => (
         If you like what you see and have a project that needs coding, don't hesitate to contact me.
       </p>
       <div>
-        <Link to="work" smooth={true} duration={500}>
+        <Link to="contact" smooth={true} duration={500}>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:text-purple-500 hover:border-purple-500">
-            View Work
+            Contact me!
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />
             </span>
           </button>
         </Link>
+
         {/* social icons */}
         <div className="flex lg:hidden top-[35%] left-0">
           <ul className="flex justify-start">
