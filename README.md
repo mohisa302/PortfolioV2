@@ -13,7 +13,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 # 📖 [Protofilio] <a name="about-project"></a>
@@ -75,8 +74,6 @@ If you like this project give me star!
 I would like to thank [Clint Briley](https://github.com/fireclint/portfolio-app-react) for his tutorial 🙏
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ❓ FAQ <a name="faq"></a>
 
 ## 📝 License <a name="license"></a>
 
