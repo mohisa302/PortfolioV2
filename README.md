@@ -2,7 +2,7 @@
 
 # 🖺 Portfolio
 
-## 📗 Table of Contents
+### 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
